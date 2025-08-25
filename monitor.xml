@@ -1,9 +1,9 @@
 <monitor>
-    <name>Apache</name>
+    <name>ApacheMonitor</name>
     <type>managed</type>
     <enabled>true</enabled>
     <enable-override os-type="linux">true</enable-override>
-    <description>Apache Monitor
+    <description>Advanced Apache Performance Monitoring
     </description>
     <monitor-configuration>
     </monitor-configuration>
