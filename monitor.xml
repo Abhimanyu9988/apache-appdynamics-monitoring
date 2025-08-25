@@ -15,7 +15,7 @@
         </task-arguments>
         <executable-task>
             <type>file</type>
-            <file>apache_monitor.sh</file>
+            <file>apache-monitor.sh</file>
         </executable-task>
     </monitor-run-task>
 </monitor>
