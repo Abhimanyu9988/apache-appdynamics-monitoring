@@ -163,7 +163,7 @@ sudo systemctl restart appdynamics-machine-agent
 
 Metrics appear in AppDynamics Controller under:
 ```
-Application Infrastructure Performance > [Your Tier] > Custom Metrics > Apache Monitor
+Servers > Custom Metrics > Apache Monitor
 ```
 
 ### Metric Categories
