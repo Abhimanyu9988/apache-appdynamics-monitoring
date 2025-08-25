@@ -1,0 +1,21 @@
+<monitor>
+    <name>Apache</name>
+    <type>managed</type>
+    <enabled>true</enabled>
+    <enable-override os-type="linux">true</enable-override>
+    <description>Apache Monitor
+    </description>
+    <monitor-configuration>
+    </monitor-configuration>
+    <monitor-run-task>
+        <execution-style>periodic</execution-style>
+        <name>Run</name>
+        <type>executable</type>
+        <task-arguments>
+        </task-arguments>
+        <executable-task>
+            <type>file</type>
+            <file>apache_monitor.sh</file>
+        </executable-task>
+    </monitor-run-task>
+</monitor>
